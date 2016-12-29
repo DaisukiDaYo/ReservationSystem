@@ -5,5 +5,6 @@
     <page:show id="ps_com_se_reservationsystem_domain_Room" object="${room}" path="/rooms" z="hKmuhAAQiqnvDGy2rMuybKP35fs=">
         <field:display field="roomNumber" id="s_com_se_reservationsystem_domain_Room_roomNumber" object="${room}" z="KJWFxe3xjUS8WUiIQrRvgt4EPVQ="/>
         <field:display field="roomType" id="s_com_se_reservationsystem_domain_Room_roomType" object="${room}" z="QGd99bdgI24qvi7li7iAnGK+q4Y="/>
+        <field:display field="status" id="s_com_se_reservationsystem_domain_Room_status" object="${room}" z="zsx4X2Plyzaz7Lhgx7XyCWuAaRM="/>
     </page:show>
 </div>

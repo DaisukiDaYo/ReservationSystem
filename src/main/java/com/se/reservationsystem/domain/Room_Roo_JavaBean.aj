@@ -4,6 +4,7 @@
 package com.se.reservationsystem.domain;
 
 import com.se.reservationsystem.domain.Room;
+import com.se.reservationsystem.domain.RoomStatus;
 import com.se.reservationsystem.domain.Roomtype;
 
 privileged aspect Room_Roo_JavaBean {
@@ -22,6 +23,14 @@ privileged aspect Room_Roo_JavaBean {
     
     public void Room.setRoomType(Roomtype roomType) {
         this.roomType = roomType;
+    }
+    
+    public RoomStatus Room.getStatus() {
+        return this.status;
+    }
+    
+    public void Room.setStatus(RoomStatus status) {
+        this.status = status;
     }
     
 }

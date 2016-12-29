@@ -4,9 +4,11 @@
 package com.se.reservationsystem.web;
 
 import com.se.reservationsystem.domain.Room;
+import com.se.reservationsystem.domain.RoomStatus;
 import com.se.reservationsystem.domain.Roomtype;
 import com.se.reservationsystem.web.RoomController;
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import org.springframework.ui.Model;
@@ -87,6 +89,7 @@ privileged aspect RoomController_Roo_Controller {
     
     void RoomController.populateEditForm(Model uiModel, Room room) {
         uiModel.addAttribute("room", room);
+        uiModel.addAttribute("roomstatuses", Arrays.asList(RoomStatus.values()));
         uiModel.addAttribute("roomtypes", Roomtype.findAllRoomtypes());
     }
     

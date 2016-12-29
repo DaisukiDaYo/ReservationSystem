@@ -4,10 +4,11 @@ import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.tostring.RooToString;
 import javax.validation.constraints.NotNull;
 import javax.persistence.ManyToOne;
+import javax.persistence.Enumerated;
 
 @RooJavaBean
 @RooToString
-@RooJpaActiveRecord
+@RooJpaActiveRecord(finders = { "findRoomsByStatus" })
 public class Room {
 
     /**
@@ -19,4 +20,9 @@ public class Room {
      */
     @ManyToOne
     private Roomtype roomType;
+
+    /**
+     */
+    @Enumerated
+    private RoomStatus status;
 }

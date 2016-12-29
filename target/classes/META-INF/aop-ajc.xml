@@ -1,0 +1,38 @@
+<aspectj>
+<aspects>
+<aspect name="com.se.reservationsystem.domain.Customer_Roo_Jpa_Entity"/>
+<aspect name="com.se.reservationsystem.domain.DurableArticles_Roo_ToString"/>
+<aspect name="com.se.reservationsystem.web.CustomerController_Roo_Controller"/>
+<aspect name="com.se.reservationsystem.web.RoomController_Roo_Controller"/>
+<aspect name="com.se.reservationsystem.domain.Roomtype_Roo_Configurable"/>
+<aspect name="com.se.reservationsystem.domain.DurableArticles_Roo_Configurable"/>
+<aspect name="com.se.reservationsystem.domain.Room_Roo_JavaBean"/>
+<aspect name="com.se.reservationsystem.domain.Customer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.se.reservationsystem.web.RoomController_Roo_Controller_Finder"/>
+<aspect name="com.se.reservationsystem.domain.Roomtype_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.se.reservationsystem.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.se.reservationsystem.domain.Reservation_Roo_ToString"/>
+<aspect name="com.se.reservationsystem.domain.Roomtype_Roo_Jpa_Entity"/>
+<aspect name="com.se.reservationsystem.domain.Room_Roo_Finder"/>
+<aspect name="com.se.reservationsystem.domain.Room_Roo_Jpa_Entity"/>
+<aspect name="com.se.reservationsystem.domain.Customer_Roo_Configurable"/>
+<aspect name="com.se.reservationsystem.domain.DurableArticles_Roo_Jpa_Entity"/>
+<aspect name="com.se.reservationsystem.domain.Room_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.se.reservationsystem.domain.DurableArticles_Roo_JavaBean"/>
+<aspect name="com.se.reservationsystem.domain.Reservation_Roo_Jpa_Entity"/>
+<aspect name="com.se.reservationsystem.domain.Reservation_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.se.reservationsystem.domain.DurableArticles_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.se.reservationsystem.domain.Reservation_Roo_JavaBean"/>
+<aspect name="com.se.reservationsystem.web.DurableArticlesController_Roo_Controller"/>
+<aspect name="com.se.reservationsystem.domain.Roomtype_Roo_ToString"/>
+<aspect name="com.se.reservationsystem.domain.Customer_Roo_JavaBean"/>
+<aspect name="com.se.reservationsystem.domain.Reservation_Roo_Configurable"/>
+<aspect name="com.se.reservationsystem.domain.Roomtype_Roo_JavaBean"/>
+<aspect name="com.se.reservationsystem.web.ReservationController_Roo_Controller"/>
+<aspect name="com.se.reservationsystem.domain.Room_Roo_Configurable"/>
+<aspect name="com.se.reservationsystem.domain.Room_Roo_ToString"/>
+<aspect name="com.se.reservationsystem.domain.Customer_Roo_ToString"/>
+<aspect name="com.se.reservationsystem.web.RoomtypeController_Roo_Controller"/>
+</aspects>
+</aspectj>
+

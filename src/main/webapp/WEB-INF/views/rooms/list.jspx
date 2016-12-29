@@ -6,6 +6,7 @@
         <table:table data="${rooms}" id="l_com_se_reservationsystem_domain_Room" path="/rooms" z="v02OzCfR2jmj1vL1+GiRWNOfNUs=">
             <table:column id="c_com_se_reservationsystem_domain_Room_roomNumber" property="roomNumber" z="99FQ2w90/KSHL7QfMYyDy7JDIgQ="/>
             <table:column id="c_com_se_reservationsystem_domain_Room_roomType" property="roomType" z="Bo50DvApcvjaKvFbKIf3oQv3O88="/>
+            <table:column id="c_com_se_reservationsystem_domain_Room_status" property="status" z="maefJOMtnAFJBTO0Qeq3MiXY65g="/>
         </table:table>
     </page:list>
 </div>

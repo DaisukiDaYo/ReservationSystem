@@ -10,6 +10,7 @@
         <menu:category id="c_room" z="e3e6qTdks0EVUaGbVSSNbM0HcXc=">
             <menu:item id="i_room_new" messageCode="global_menu_new" url="/rooms?form" z="fvAkKg908k/4/1ftKfhIuAeNmjE="/>
             <menu:item id="i_room_list" messageCode="global_menu_list" url="/rooms?page=1&amp;size=${empty param.size ? 10 : param.size}" z="M5XFOS8myAtDzhNTcTwqAph0QtQ="/>
+            <menu:item id="fi_room_status" messageCode="global_menu_find" url="/rooms?find=ByStatus&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="iT+/rtHP5GwL9s/70MH3GYUc0Nc="/>
         </menu:category>
         <menu:category id="c_reservation" z="QOKmLQs8mRLEvu7n5roIvJzPgHc=">
             <menu:item id="i_reservation_new" messageCode="global_menu_new" url="/reservations?form" z="VN+vNiuOsWM9mc3+Pnfd51o3YUc="/>

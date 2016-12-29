@@ -5,5 +5,6 @@
     <form:update id="fu_com_se_reservationsystem_domain_Room" modelAttribute="room" path="/rooms" versionField="Version" z="DdqenHcaZThY/dBEV7aFxY2MF4I=">
         <field:input field="roomNumber" id="c_com_se_reservationsystem_domain_Room_roomNumber" required="true" z="Zx9Wy6+U5fa/iW0eXOX3EkiORVg="/>
         <field:select field="roomType" id="c_com_se_reservationsystem_domain_Room_roomType" itemValue="id" items="${roomtypes}" path="/roomtypes" z="mnCdShxiKbLqPtSD0VdXk/pCbJA="/>
+        <field:select field="status" id="c_com_se_reservationsystem_domain_Room_status" items="${roomstatuses}" path="roomstatuses" z="oMYJfnRVkOViALV/cLAZ7o+l0lA="/>
     </form:update>
 </div>
