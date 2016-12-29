@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_se_reservationsystem_domain_Roomtype" modelAttribute="roomtype" path="/roomtypes" render="${empty dependencies}" z="gBt2Jx24qvLfAh8Rk0MQpNLZcAk=">
+        <field:input field="type" id="c_com_se_reservationsystem_domain_Roomtype_type" required="true" z="b6cnWL354jxfq3Q9xJJCtzswjOY="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_se_reservationsystem_domain_Roomtype" render="${not empty dependencies}" z="lkn5gEByAdieWWeYchsyD/DMhIo="/>
+</div>
