@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_se_reservationsystem_domain_Reservation" items="${reservations}" z="34KwA/1yrrcnPbkVRKPBQpIgdb0=">
+        <table:table data="${reservations}" id="l_com_se_reservationsystem_domain_Reservation" path="/reservations" z="a2QFMB9sO1Mf5i2mu5IhJKfOhWk=">
+            <table:column id="c_com_se_reservationsystem_domain_Reservation_name" property="name" z="MF3Hm8a9Lzy4GPaMiPaMr/3VtpA="/>
+            <table:column id="c_com_se_reservationsystem_domain_Reservation_phone" property="phone" z="bTyDEa3apr+04eRTAkQvdaz5ivU="/>
+            <table:column id="c_com_se_reservationsystem_domain_Reservation_email" property="email" z="/8ov81CSMXygg8WJTniH5PN6m6Q="/>
+            <table:column id="c_com_se_reservationsystem_domain_Reservation_room" property="room" z="r7I43nGOVQZmtEUgeeKzB8HGTdE="/>
+            <table:column id="c_com_se_reservationsystem_domain_Reservation_durableArticles" property="durableArticles" z="nhmO9f7NSbLI2m43m131qwT6mHA="/>
+        </table:table>
+    </page:list>
+</div>

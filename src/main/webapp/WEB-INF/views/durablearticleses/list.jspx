@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_se_reservationsystem_domain_DurableArticles" items="${durablearticleses}" z="Cnc54t76gYmam+DUNNnfQNH3c4E=">
+        <table:table data="${durablearticleses}" id="l_com_se_reservationsystem_domain_DurableArticles" path="/durablearticleses" z="weipYC+bh89bOpnC9HOjXJgXT4k=">
+            <table:column id="c_com_se_reservationsystem_domain_DurableArticles_name" property="name" z="U45i5lnS8JzDO87z+8kEvJJ6Hh8="/>
+        </table:table>
+    </page:list>
+</div>
